@@ -1,16 +1,12 @@
-# flutter_application_1
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Лабораторная работа №4, Жук Никита ИВТ-22
+Реализовать калькулятор ускорения свободного падения. На первом экране должны располагаться 2 числовых поля ввода (масса небесного тела и радиус небесного тела), а также чек-бокс на согласие обработки данных.
+1. Реализовать кубит и состояние кубита.
+2. Вынести все расчеты в кубит.
+3. Вместо переключения экранов приложения реализовать смену состояний.
+# Лабораторная работа №5
+1. За основу данной лабораторной работы взять проект и задание из предыдущей работы.
+2. Реализовать сохранение всех вводимых данных и результатов расчетов с помощью SharedPreferences
+3. Реализовать в кубите метод записи.
+4. Добавить новый экран, где будут выводится списком вводимые ранее данные и результаты расчетов.
+5. Для нового экрана реализовать кубит обеспечивающий загрузку данных.
+6. На первом экране в leading AppBar добавить IconButton, и при нажатии на нее используя класс Navigator открыть новый экран с результатами.
