@@ -3,8 +3,8 @@
 Выполнил Жук Никита ИВТ-22 Задание: Написать инструкцию по установке Flutter на visual studio code
 
 # Инструкция:
--Установить GitBash и Visual Studio Code
--Авторизоваться в GitBash и запустить Visual Studio Code {} {}
+1. Установить GitBash и Visual Studio Code
+2. Авторизоваться в GitBash и запустить Visual Studio Code {} {}
 -В Visual Studio Code в левом панельном меню выбрать квадратики {}{}
 -Написать flutter и установить плагин Flutter от Dart Code
 -Нажать ctrl + shift + p в появившемся окне написать flutter
