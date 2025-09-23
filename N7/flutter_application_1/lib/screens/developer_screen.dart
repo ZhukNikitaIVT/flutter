@@ -5,7 +5,7 @@ class DeveloperPage extends StatelessWidget {
   const DeveloperPage({super.key});
 
 Future<void> launchGitHubProfile(BuildContext context) async {
-    const url = 'https://github.com/KolosovaElena-Predan';
+    const url = 'https://github.com/ZhukNikitaIVT';
     try {
       if (!await launchUrl(Uri.parse(url))) {
         
@@ -63,9 +63,9 @@ Future<void> launchGitHubProfile(BuildContext context) async {
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
-            InfoRowInterface('Ф.И.:', 'Колосова Елена'),
-            InfoRowInterface('Группа:', 'ВМК-22'),
-            InfoRowInterface('email:', 'elena.kolosova.04@mail.ru'),
+            InfoRowInterface('Ф.И.:', 'Жук Никита'),
+            InfoRowInterface('Группа:', 'ИВТ-22'),
+            InfoRowInterface('email:', 'nakefire300@gmail.com'),
             ElevatedButton(
               onPressed: () => launchGitHubProfile(context),
               child: const Text('Перейти на гитхаб'),
